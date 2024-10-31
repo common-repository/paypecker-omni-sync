@@ -1,0 +1,21 @@
+{
+  "name": "paypecker/woo-paypecker",
+  "description": "Connect paypecker and a woocommerce shop, it syncs the orders, payment and inventory",
+  "type": "wordpress-plugin",
+  "require": {
+    "illuminate/validation": "^8.53",
+    "illuminate/filesystem": "^8.53",
+    "illuminate/translation": "^8.53"
+  },
+  "autoload": {
+    "psr-4": {
+      "PayPecker\\WooPaypecker\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Paypecker",
+      "email": "engineering@paypecker.co"
+    }
+  ]
+}
